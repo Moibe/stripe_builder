@@ -1,35 +1,35 @@
 {
-  "moneda_tic": "PEN",
+  "moneda_tic": "EUR",
   "precios": [
     {
       "numero_producto": 1,
       "cantidad_precio": 30,
-      "monto": 10.0
+      "monto": 1.0
     },
     {
       "numero_producto": 2,
       "cantidad_precio": 190,
-      "monto": 50
+      "monto": 9.0
     },
     {
       "numero_producto": 3,
       "cantidad_precio": 580,
-      "monto": 150
+      "monto": 25.0
     },
     {
       "numero_producto": 4,
       "cantidad_precio": 780,
-      "monto": 200.0
+      "monto": 35.0
     },
     {
       "numero_producto": 5,
       "cantidad_precio": 1600,
-      "monto": 300
+      "monto": 70.0
     },
     {
       "numero_producto": 6,
       "cantidad_precio": 1900,
-      "monto": 400
+      "monto": 85.0
     }
   ]
 }

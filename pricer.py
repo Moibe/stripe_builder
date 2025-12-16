@@ -136,7 +136,7 @@ def generar_json(moneda_tic, precios_finales):
         json_data["precios"].append({
             "numero_producto": idx,
             "cantidad_precio": precio['cantidad_precio'],
-            "monto": precio['monto_final']
+            "monto": float(precio['monto_final'])  # Garantizar que siempre sea float
         })
     
     return json_data
@@ -235,7 +235,7 @@ def main():
         # Usar cantidad_precio como precio base en MXN
         precio_mxn = precio_mx['cantidad_precio']
         precio_convertido = precio_mxn * tasa_cambio
-        precio_redondeado = redondear_inteligente(precio_convertido, precision=50)
+        precio_redondeado = redondear_inteligente(precio_convertido)  # Sin precisión fija, usa la inteligente
         
         precios_propuestos.append({
             'numero': idx,

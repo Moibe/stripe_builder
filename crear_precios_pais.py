@@ -320,9 +320,16 @@ def procesar_pais(config_file, stripe_environment=None):
         print(f"   Creando precio #{num_producto}: {monto} {pais['simbolo']} ({cantidad_precio} imágenes)...", end=" ")
         
         try:
+            # Calcular unit_amount según los decimales de la moneda
+            # decs=2 (USD): multiplicar por 100
+            # decs=0 (CLP): multiplicar por 1
+            # decs=3: multiplicar por 1000, etc.
+            multiplicador = 10 ** pais['decs']
+            unit_amount = int(monto * multiplicador)
+            
             precio_stripe = stripe.Price.create(
                 product=precio_mexico['stripe_product_id'],
-                unit_amount=int(monto * 100),
+                unit_amount=unit_amount,
                 currency=pais['moneda_tic'].lower(),
                 metadata={
                     'nombre': nombre_precio,
@@ -334,9 +341,10 @@ def procesar_pais(config_file, stripe_environment=None):
             price_id = precio_stripe.id
             
             # Insertar en BD con ambiente normalizado
+            # Guardamos 'monto' (precio final) en cantidad_precio, no el número de imágenes
             ambiente_normalizado = normalizar_ambiente(stripe_client.environment)
             if insertar_precio_bd(db, pertenencia['id'], pais['id'], price_id, 
-                                 cantidad_precio, ratio_imagen, nombre_precio, ambiente_normalizado):
+                                 monto, ratio_imagen, nombre_precio, ambiente_normalizado):
                 print("✅")
                 precios_creados += 1
             else:
