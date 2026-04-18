@@ -1,0 +1,141 @@
+PRECIOS CREADOS - ACCESO PARA SIEMPRE
+======================================================================
+Fecha: 2026-02-02 16:13:54
+Producto: Acceso para siempre
+Product ID: prod_TuGgeHxdbLvTb2
+Precio base: $100 MXN
+Ambiente: PRODUCTION
+======================================================================
+
+Afganistán (AFN): $378.0 → price_1SwUsYIYi36CbmfWu5fqs4oC
+África Central (XAF): $3169.0 → price_1SwUsvIYi36CbmfWReTnrYux
+África Occidental (XOF): $3169.0 → price_1SwUtDIYi36CbmfWyVZLOu3P
+Albania (ALL): $469.0 → price_1SwUtOIYi36CbmfWNDhvtEOT
+Angola (AOA): $5288.0 → price_1SwUtXIYi36CbmfW4HyWcSYM
+Antillas Neerlandesas (ANG): $10.0 → price_1SwUtrIYi36CbmfW9ZRq6Wff
+Arabia Saudita (SAR): $21.0 → price_1SwUuEIYi36CbmfWmm2Y3FaQ
+Argelia (DZD): $746.0 → price_1SwUuIIYi36CbmfW2nveDiaQ
+Argentina (ARS): $8320.0 → price_1SwUuWIYi36CbmfWcxaVODqs
+Armenia (AMD): $2169.0 → price_1SwUvDIYi36CbmfWS0ODGHAo
+Aruba (AWG): $10.0 → price_1SwUvHIYi36CbmfWYThjiTVQ
+Australia (AUD): $8.0 → price_1SwUvKIYi36CbmfW3utKNPYF
+Azerbaiyán (AZN): $10.0 → price_1SwUvUIYi36CbmfWz4WgQVmZ
+Bahamas (BSD): $6.0 → price_1SwUveIYi36CbmfW5QVzDP0v
+Bangladés (BDT): $701.0 → price_1SwUvhIYi36CbmfWP2JSIspV
+Barbados (BBD): $11.0 → price_1SwUvmIYi36CbmfWhygXi2g0
+Belice (BZD): $11.0 → price_1SwUx9IYi36CbmfWeLnyf01Z
+Bermudas (BMD): $6.0 → price_1SwUxCIYi36CbmfWVlOwhy6Q
+Bielorrusia (BYN): $16.0 → price_1SwUxGIYi36CbmfWUQbuXJ59
+Bolivia (BOB): $40.0 → price_1SwUxLIYi36CbmfWKe4KUcue
+Bosnia y Herzegovina (BAM): $9.0 → price_1SwUxQIYi36CbmfWB6AaWo9S
+Botsuana (BWP): $76.0 → price_1SwUxfIYi36CbmfWxwhUmAOm
+Brasil (BRL): $30.0 → price_1SwUxqIYi36CbmfWa66WQXuL
+Brunéi (BND): $7.0 → price_1SwUy4IYi36CbmfWXRmAK9Nl
+Burundi (BIF): $16972.0 → price_1SwUzAIYi36CbmfWatmnBqYq
+Cabo Verde (CVE): $533.0 → price_1SwV0PIYi36CbmfWPdiviOyz
+Camboya (KHR): $23000.0 → price_1SwV0bIYi36CbmfWejU6Donm
+Canadá (CAD): $8.0 → price_1SwV0gIYi36CbmfW8YQ254w1
+Caribe Oriental (XCD): $15.0 → price_1SwV2HIYi36CbmfWjt5ADpm2
+Catar (QAR): $21.0 → price_1SwV2KIYi36CbmfWvdAxHld8
+Chequia (CZK): $118.0 → price_1SwV2NIYi36CbmfWghmXktQX
+Chile (CLP): $4979.0 → price_1SwV2VIYi36CbmfWLznwJtH1
+China (CNY): $40.0 → price_1SwV2bIYi36CbmfW2su5DdWq
+Colombia (COP): $21000.0 → price_1SwV2kIYi36CbmfW6Jl83o4k
+Comoras (KMF): $2377.0 → price_1SwV39IYi36CbmfWmqPc03cU
+Corea del Sur (KRW): $8344.0 → price_1SwV4GIYi36CbmfWgAN1IQYM
+Costa Rica (CRC): $2850.0 → price_1SwV4PIYi36CbmfWMdmqTWq1
+Criptomoneda Genérica (XCG): $10.0 → price_1SwV6aIYi36CbmfWtyt43ay3
+Dinamarca (DKK): $36.0 → price_1SwV6hIYi36CbmfWyNmCH32t
+Egipto (EGP): $270.0 → price_1SwV6kIYi36CbmfWMBo4aiSH
+Emiratos Árabes Unidos (AED): $21.0 → price_1SwV6mIYi36CbmfWiKmfh9ll
+Estados Unidos (USD): $6.0 → price_1SwV6vIYi36CbmfWBIO4rQ6J
+Esuatini (SZL): $90.0 → price_1SwV7BIYi36CbmfWJjODtjhn
+Etiopía (ETB): $890.0 → price_1SwV7GIYi36CbmfWnHUtQ1SS
+Filipinas (PHP): $339.0 → price_1SwV7OIYi36CbmfWFf0ePBB9
+Fiyi (FJD): $12.0 → price_1SwV7VIYi36CbmfW0El4zBXI
+Gambia (GMD): $425.0 → price_1SwV7aIYi36CbmfWUqHnz8ok
+Georgia (GEL): $15.0 → price_1SwV7dIYi36CbmfWOPCNeJ21
+Gibraltar (GIP): $4.0 → price_1SwV7rIYi36CbmfWOYa4VHEA
+Guatemala (GTQ): $44.0 → price_1SwV7wIYi36CbmfWxaPasSt8
+Guinea (GNF): $50060.0 → price_1SwV81IYi36CbmfWjjPtuNGd
+Guyana (GYD): $1199.0 → price_1SwV9WIYi36CbmfWNky0lHEh
+Haití (HTG): $749.0 → price_1SwV9jIYi36CbmfWAj5NDIKX
+Honduras (HNL): $152.0 → price_1SwVCPIYi36CbmfWW6CcIM4f
+Hong Kong (HKD): $45.0 → price_1SwVCSIYi36CbmfWzwM4vs4h
+Hungría (HUF): $1840.0 → price_1SwVCZIYi36CbmfWuor9PcmQ
+India (INR): $529.0 → price_1SwVCcIYi36CbmfWHEj7EEX9
+Indonesia (IDR): $96600.0 → price_1SwVClIYi36CbmfWXfpCBDKN
+Islandia (ISK): $700.0 → price_1SwVDAIYi36CbmfW3MAQ3JMm
+Islas Caimán (KYD): $5.0 → price_1SwVDGIYi36CbmfWf3w4v5SA
+Islas Malvinas (FKP): $4.0 → price_1SwVDLIYi36CbmfWWUFevVMh
+Islas Salomón (SBD): $45.0 → price_1SwVDOIYi36CbmfWLkQtIxiA
+Israel (ILS): $18.0 → price_1SwVDQIYi36CbmfW7Zz9Kcnp
+Jamaica (JMD): $900.0 → price_1SwVDVIYi36CbmfWc1ezkQjz
+Japón (JPY): $888.0 → price_1SwVDYIYi36CbmfW0y64Pt0q
+Kazajistán (KZT): $2885.0 → price_1SwVDbIYi36CbmfWA9LgdYoL
+Kenia (KES): $740.0 → price_1SwVDwIYi36CbmfWD321Zmxp
+Kirguistán (KGS): $500.0 → price_1SwVE0IYi36CbmfWTg57NUzJ
+Laos (LAK): $124600.0 → price_1SwVE7IYi36CbmfWYKf7X3z7
+Lesoto (LSL): $90.0 → price_1SwVEEIYi36CbmfW9DRj5sfA
+Líbano (LBP): $512000.0 → price_1SwVEMIYi36CbmfWKArCvYpA
+Liberia (LRD): $1000.0 → price_1SwVETIYi36CbmfWSuLJqXSJ
+Macao (MOP): $49.0 → price_1SwVEZIYi36CbmfWuqEigWPy
+Macedonia del Norte (MKD): $299.0 → price_1SwVEfIYi36CbmfWNEe3DF62
+Madagascar (MGA): $25000.0 → price_1SwVElIYi36CbmfWn5EkULKT
+Malasia (MYR): $23.0 → price_1SwVEoIYi36CbmfWBxV9C9qK
+Malaui (MWK): $9960.0 → price_1SwVF3IYi36CbmfW7UVFjerl
+Maldivas (MVR): $89.0 → price_1SwVF6IYi36CbmfWOxaD6ECQ
+Marruecos (MAD): $52.0 → price_1SwVF8IYi36CbmfWslI4RZUm
+Mauricio (MUR): $264.0 → price_1SwVFBIYi36CbmfWx8qS9UWY
+Moldavia (MDL): $97.0 → price_1SwVFFIYi36CbmfWAIJmq58e
+Mongolia (MNT): $20200.0 → price_1SwVFNIYi36CbmfWA59vtjNG
+Mozambique (MZN): $365.0 → price_1SwVFpIYi36CbmfWpmyLGmgd
+Myanmar (MMK): $12000.0 → price_1SwVFvIYi36CbmfW4gLd6brZ
+Namibia (NAD): $89.0 → price_1SwVFzIYi36CbmfWPULNBCiD
+Nepal (NPR): $847.0 → price_1SwVG3IYi36CbmfWy9s5x9se
+Nicaragua (NIO): $200.0 → price_1SwVG7IYi36CbmfW6QN6ysTe
+Nigeria (NGN): $7999.0 → price_1SwVGFIYi36CbmfWzAn9gLsF
+Noruega (NOK): $55.0 → price_1SwVGIIYi36CbmfWKsJzbcfG
+Nueva Zelanda (NZD): $10.0 → price_1SwVGLIYi36CbmfWTAIHWgdm
+Pakistán (PKR): $1599.0 → price_1SwVGRIYi36CbmfWdcBfOmlj
+Panamá (PAB): $6.0 → price_1SwVGWIYi36CbmfWheD1R43T
+Papúa Nueva Guinea (PGK): $25.0 → price_1SwVHlIYi36CbmfW8lYxljVB
+Paraguay (PYG): $38500.0 → price_1SwVHrIYi36CbmfWrIFnvpKR
+Perú (PEN): $19.0 → price_1SwVHuIYi36CbmfW59jEUSdq
+Polinesia Francesa (XPF): $500.0 → price_1SwVI1IYi36CbmfWjIhqe28K
+Polonia (PLN): $20.0 → price_1SwVI5IYi36CbmfWVYOXb8XB
+Reino Unido (GBP): $4.0 → price_1SwVI8IYi36CbmfWteewal2V
+República Democrática del Congo (CDF): $12300.0 → price_1SwVICIYi36CbmfWRTdC5I1R
+República Dominicana (DOP): $365.0 → price_1SwVIKIYi36CbmfWpLnUdwT2
+Ruanda (RWF): $8300.0 → price_1SwVIPIYi36CbmfWFUFQKsio
+Rumanía (RON): $25.0 → price_1SwVITIYi36CbmfWi7RqJITA
+Rusia (RUB): $435.0 → price_1SwVJUIYi36CbmfWqGOhiCeX
+Samoa (WST): $15.0 → price_1SwVJWIYi36CbmfW8PmvRglO
+Santa Elena (SHP): $4.0 → price_1SwVJYIYi36CbmfWDyitK8fb
+Serbia (RSD): $569.0 → price_1SwVJuIYi36CbmfWFnfRq1AJ
+Seychelles (SCR): $79.0 → price_1SwVJyIYi36CbmfWCtVVakcv
+Sierra Leona (SLE): $139.0 → price_1SwVK0IYi36CbmfWTxIvax59
+Singapur (SGD): $7.0 → price_1SwVK3IYi36CbmfW1rhwbNz4
+Somalia (SOS): $3200.0 → price_1SwVKBIYi36CbmfWsYsbozPs
+Sri Lanka (LKR): $1700.0 → price_1SwVKJIYi36CbmfWqt2ZPMks
+Sudáfrica (ZAR): $89.0 → price_1SwVKOIYi36CbmfWzlz3aZO2
+Suecia (SEK): $49.0 → price_1SwVKSIYi36CbmfWW6jzdPGm
+Suiza (CHF): $4.0 → price_1SwVLhIYi36CbmfWCSDM9zCk
+Surinam (SRD): $218.0 → price_1SwVLkIYi36CbmfWIOwXgJ3d
+Tailandia (THB): $182.0 → price_1SwVLnIYi36CbmfWziJlH1uf
+Taiwán (TWD): $181.0 → price_1SwVLqIYi36CbmfWRGnnoNWM
+Tanzania (TZS): $14700.0 → price_1SwVLwIYi36CbmfWhTF9MGv3
+Tayikistán (TJS): $49.0 → price_1SwVM0IYi36CbmfWsEbaPUdY
+Tonga (TOP): $14.0 → price_1SwVM3IYi36CbmfWI0m0IQPA
+Trinidad y Tobago (TTD): $39.0 → price_1SwVM9IYi36CbmfWDiaLXx8c
+Turquía (TRY): $249.0 → price_1SwVMCIYi36CbmfW6o2NvLcR
+Ucrania (UAH): $247.0 → price_1SwVMFIYi36CbmfWT6SnOGdc
+Uganda (UGX): $20300.0 → price_1SwVMOIYi36CbmfWGxPFyqEZ
+Unión Europea (EUR): $5.0 → price_1SwVMQIYi36CbmfWHUlllwi1
+Uruguay (UYU): $219.0 → price_1SwVMWIYi36CbmfWuRz1Utuu
+Uzbekistán (UZS): $69924.0 → price_1SwVMXIYi36CbmfW5pn0xi6r
+Vanuatu (VUV): $599.0 → price_1SwVN9IYi36CbmfWdrUzI22F
+Vietnam (VND): $147000.0 → price_1SwVNFIYi36CbmfWNhnk6yPr
+Yemen (YER): $1300.0 → price_1SwVNKIYi36CbmfWo95lcwyn
+Yibuti (DJF): $999.0 → price_1SwVNOIYi36CbmfWgqQlAmC5
+Zambia (ZMW): $112.0 → price_1SwVNUIYi36CbmfWnjdE5uZ8
