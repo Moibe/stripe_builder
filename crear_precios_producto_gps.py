@@ -10,7 +10,8 @@ from datetime import datetime
 load_dotenv()
 
 # Configurar Stripe en production
-stripe.api_key = os.getenv('STRIPE_PROD_SECRET_KEY')
+from utils import init_stripe_cli
+init_stripe_cli(environment="prod")
 
 # Constantes - Configurables por el usuario
 PRODUCT_ID = "prod_TzbGHlbKHkeGiq"

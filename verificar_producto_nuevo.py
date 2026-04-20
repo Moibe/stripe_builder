@@ -6,7 +6,8 @@ import os
 load_dotenv()
 
 # Configurar Stripe en production
-stripe.api_key = os.getenv('STRIPE_PROD_SECRET_KEY')
+from utils import init_stripe_cli
+init_stripe_cli(environment="prod")
 
 PRODUCT_ID = "prod_U4wmT5U2hLGQoM"
 

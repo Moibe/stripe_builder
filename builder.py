@@ -1,42 +1,38 @@
 import os
 import stripe
 from dotenv import load_dotenv
+from utils import obtener_stripe_key
 
 # Cargar variables de entorno
 load_dotenv()
 
 
 class StripeClient:
-    """Cliente para conectarse a Stripe con soporte para múltiples ambientes."""
+    """Cliente para conectarse a Stripe con soporte para múltiples ambientes y negocios."""
     
-    def __init__(self, environment: str = None):
+    def __init__(self, environment: str = None, business: str = None):
         """
         Inicializa el cliente de Stripe.
         
         Args:
             environment: 'sandbox' o 'prod'. Si no se especifica, usa STRIPE_ENV del .env
+            business: nombre del negocio (ej. 'splashmix', 'geospace'). Si no se especifica, usa STRIPE_DEFAULT_BUSINESS
         """
-        # Usar ambiente especificado o el del archivo .env
         self.environment = environment or os.getenv('STRIPE_ENV', 'sandbox')
+        self.business = business or os.getenv('STRIPE_DEFAULT_BUSINESS', 'splashmix')
         
         if self.environment not in ['sandbox', 'prod']:
             raise ValueError(f"Ambiente inválido: {self.environment}. Debe ser 'sandbox' o 'prod'")
         
-        # Cargar la clave secreta según el ambiente
-        if self.environment == 'sandbox':
-            self.api_key = os.getenv('STRIPE_SANDBOX_SECRET_KEY')
-            self.publishable_key = os.getenv('STRIPE_SANDBOX_PUBLISHABLE_KEY')
-        else:
-            self.api_key = os.getenv('STRIPE_PROD_SECRET_KEY')
-            self.publishable_key = os.getenv('STRIPE_PROD_PUBLISHABLE_KEY')
+        # Cargar claves según negocio y ambiente
+        biz = self.business.upper()
+        env = self.environment.upper()
+        self.api_key = os.getenv(f'STRIPE_{biz}_{env}_SECRET_KEY')
+        self.publishable_key = os.getenv(f'STRIPE_{biz}_{env}_PUBLISHABLE_KEY')
         
-        # Validar que las claves existan
         if not self.api_key:
-            raise ValueError(f"No se encontró STRIPE_{self.environment.upper()}_SECRET_KEY en .env")
-        if not self.publishable_key:
-            raise ValueError(f"No se encontró STRIPE_{self.environment.upper()}_PUBLISHABLE_KEY en .env")
+            raise ValueError(f"No se encontró STRIPE_{biz}_{env}_SECRET_KEY en .env")
         
-        # Configurar stripe
         stripe.api_key = self.api_key
     
     def verify_connection(self) -> dict:
@@ -67,14 +63,15 @@ class StripeClient:
                 'mensaje': f'Error al conectar: {str(e)}'
             }
     
-    def switch_environment(self, environment: str) -> None:
+    def switch_environment(self, environment: str, business: str = None) -> None:
         """
         Cambia el ambiente activo.
         
         Args:
             environment: 'sandbox' o 'prod'
+            business: nombre del negocio (opcional, mantiene el actual)
         """
-        self.__init__(environment)
+        self.__init__(environment, business or self.business)
 
 
 def main():

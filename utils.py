@@ -1,7 +1,29 @@
 import stripe
 import requests
+import os
 from decimal import Decimal, ROUND_HALF_UP
 from datetime import datetime
+
+
+def obtener_stripe_key(business=None, environment="prod"):
+    """Obtiene la API key de Stripe para un negocio y ambiente dados.
+    Si no se especifica business, usa STRIPE_DEFAULT_BUSINESS del .env."""
+    if not business:
+        business = os.getenv("STRIPE_DEFAULT_BUSINESS", "splashmix")
+    business = business.upper()
+    environment = environment.upper()
+    key = os.getenv(f"STRIPE_{business}_{environment}_SECRET_KEY")
+    if not key:
+        raise ValueError(
+            f"No se encontró STRIPE_{business}_{environment}_SECRET_KEY en .env"
+        )
+    return key
+
+
+def init_stripe_cli(business=None, environment="prod"):
+    """Inicializa Stripe para scripts CLI."""
+    stripe.api_key = obtener_stripe_key(business, environment)
+    return stripe.api_key
 
 
 def normalizar_ambiente(ambiente):
